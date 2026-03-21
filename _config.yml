@@ -1,5 +1,5 @@
 title: My Blog
-description: My blog
+description: Just for fun
 author:
   name: xoeg
 
@@ -7,7 +7,7 @@ remote_theme: jekyll/minima@v2.5.2
 
 # Skin options: classic, dark, auto, solarized, solarized-light, solarized-dark
 minima:
-  skin: classic
+  skin: dark
   show_excerpts: true
   social_links:
     - title: GitHub
