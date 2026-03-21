@@ -3,18 +3,15 @@ description: Just for fun
 author:
   name: xoeg
 
-remote_theme: jekyll/minima@e2bc14c
+remote_theme: jekyll/minima@v2.5.2
 
-# Skin options: classic, dark, auto, solarized, solarized-light, solarized-dark
 minima:
-  skin: dark
   show_excerpts: true
   social_links:
     - title: GitHub
       icon: github
       url: "https://github.com/xoeg"
 
-# MathJax (LaTeX math support)
 markdown: kramdown
 kramdown:
   math_engine: null
