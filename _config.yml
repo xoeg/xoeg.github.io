@@ -1,7 +1,7 @@
 title: My Blog
 description: My blog
 author: xoeg
-theme: minima
+remote_theme: "jekyll/minima
 
 # Social links
 minima:
