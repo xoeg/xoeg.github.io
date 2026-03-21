@@ -1,18 +1,24 @@
 title: My Blog
 description: My blog
-author: xoeg
-remote_theme: jekyll/minima
+author:
+  name: xoeg
 
-# Social links
+remote_theme: jekyll/minima@v2.5.2
+
+# Skin options: classic, dark, auto, solarized, solarized-light, solarized-dark
 minima:
+  skin: classic
+  show_excerpts: true
   social_links:
-    github: xoeg
+    - title: GitHub
+      icon: github
+      url: "https://github.com/xoeg"
 
 # MathJax (LaTeX math support)
 markdown: kramdown
 kramdown:
   math_engine: mathjax
 
-head_scripts:
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
-  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
