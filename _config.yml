@@ -3,7 +3,7 @@ description: Just for fun
 author:
   name: xoeg
 
-remote_theme: jekyll/minima@v2.5.2
+remote_theme: jekyll/minima@e2bc14c
 
 # Skin options: classic, dark, auto, solarized, solarized-light, solarized-dark
 minima:
@@ -17,7 +17,7 @@ minima:
 # MathJax (LaTeX math support)
 markdown: kramdown
 kramdown:
-  math_engine: mathjax
+  math_engine: null
 
 plugins:
   - jekyll-remote-theme
